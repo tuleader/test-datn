@@ -29,12 +29,15 @@ public final class CalculationUtils {
         if(length < 8){
             score += 5;
         }
-        if (length >= 8)
+        if(length >= 8){
             score += 10;
-        if (length >= 12)
-            score += 10;
-        if (length >= 16)
-            score += 10;
+        }
+        if(length >= 12){
+            score += 15;
+        }
+        if(length >= 16){
+            score += 20;
+        }
 
         // Character diversity (max 40)
         boolean hasUpper = false, hasLower = false, hasDigit = false, hasSpecial = false;
