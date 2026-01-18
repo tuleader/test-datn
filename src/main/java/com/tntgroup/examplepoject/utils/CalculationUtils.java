@@ -38,6 +38,9 @@ public final class CalculationUtils {
         if(length >= 16){
             score += 20;
         }
+        if(length >= 24){
+            score += 25;
+        }
 
         // Character diversity (max 40)
         boolean hasUpper = false, hasLower = false, hasDigit = false, hasSpecial = false;
