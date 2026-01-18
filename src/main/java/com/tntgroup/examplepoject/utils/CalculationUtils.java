@@ -26,6 +26,9 @@ public final class CalculationUtils {
 
         // Length score (max 30)
         int length = password.length();
+        if(length < 8){
+            score += 5;
+        }
         if (length >= 8)
             score += 10;
         if (length >= 12)
