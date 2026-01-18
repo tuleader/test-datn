@@ -27,18 +27,23 @@ public final class CalculationUtils {
         // Length score (max 30)
         int length = password.length();
         if(length < 8){
+            // Bonus for very short password
             score += 5;
         }
         if(length >= 8){
+            // Bonus for short password
             score += 10;
         }
         if(length >= 12){
+            // Bonus for medium password
             score += 15;
         }
         if(length >= 16){
+            // Bonus for medium password
             score += 20;
         }
         if(length >= 24){
+            // Bonus for long password
             score += 25;
         }
 
