@@ -95,6 +95,10 @@ public final class CalculationUtils {
         double total = price * quantity;
         double discountRate;
 
+        if(total >= 1000000){
+            discountRate = 0.2;
+        }
+
         if (quantity >= 20) {
             discountRate = 0.15;
         } else if (quantity >= 10) {
