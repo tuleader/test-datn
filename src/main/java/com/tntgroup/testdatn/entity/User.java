@@ -1,4 +1,4 @@
-package com.tntgroup.examplepoject.entity;
+package com.tntgroup.testdatn.entity;
 
 import java.time.LocalDateTime;
 

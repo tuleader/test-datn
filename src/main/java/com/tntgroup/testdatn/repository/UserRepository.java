@@ -1,11 +1,11 @@
-package com.tntgroup.examplepoject.repository;
+package com.tntgroup.testdatn.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.tntgroup.examplepoject.entity.User;
+import com.tntgroup.testdatn.entity.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {

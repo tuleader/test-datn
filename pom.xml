@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.tntgroup</groupId>
-    <artifactId>ExamplePoject</artifactId>
+    <artifactId>test-datn</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ExamplePoject</name>
-    <description>ExamplePoject</description>
+    <name>test-datn</name>
+    <description>Test DATN Project</description>
     <url/>
     <licenses>
         <license/>

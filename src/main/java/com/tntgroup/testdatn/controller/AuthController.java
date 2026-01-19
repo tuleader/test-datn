@@ -1,4 +1,4 @@
-package com.tntgroup.examplepoject.controller;
+package com.tntgroup.testdatn.controller;
 
 import java.util.Map;
 
@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tntgroup.examplepoject.dto.AuthResponse;
-import com.tntgroup.examplepoject.dto.LoginRequest;
-import com.tntgroup.examplepoject.dto.RegisterRequest;
-import com.tntgroup.examplepoject.service.AuthService;
+import com.tntgroup.testdatn.dto.AuthResponse;
+import com.tntgroup.testdatn.dto.LoginRequest;
+import com.tntgroup.testdatn.dto.RegisterRequest;
+import com.tntgroup.testdatn.service.AuthService;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;

@@ -1,4 +1,4 @@
-package com.tntgroup.examplepoject.config;
+package com.tntgroup.testdatn.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

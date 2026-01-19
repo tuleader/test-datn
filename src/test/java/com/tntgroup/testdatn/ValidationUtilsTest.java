@@ -1,9 +1,11 @@
-package com.tntgroup.examplepoject;
+package com.tntgroup.testdatn;
 
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.DisplayName;
 import static org.junit.jupiter.api.Assertions.*;
-import com.tntgroup.examplepoject.utils.ValidationUtils;
+
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import com.tntgroup.testdatn.utils.ValidationUtils;
 
 /**
  * Auto-generated tests for ValidationUtils.isValidEmail

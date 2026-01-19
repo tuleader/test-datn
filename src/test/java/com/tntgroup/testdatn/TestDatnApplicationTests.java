@@ -1,10 +1,10 @@
-package com.tntgroup.examplepoject;
+package com.tntgroup.testdatn;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ExamplePojectApplicationTests {
+class TestDatnApplicationTests {
 
     @Test
     void contextLoads() {

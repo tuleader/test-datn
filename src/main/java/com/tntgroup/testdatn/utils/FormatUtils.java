@@ -1,4 +1,4 @@
-package com.tntgroup.examplepoject.utils;
+package com.tntgroup.testdatn.utils;
 
 /**
  * Utility class for string formatting and transformation.

@@ -1,14 +1,14 @@
-package com.tntgroup.examplepoject.service;
+package com.tntgroup.testdatn.service;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.tntgroup.examplepoject.dto.AuthResponse;
-import com.tntgroup.examplepoject.dto.LoginRequest;
-import com.tntgroup.examplepoject.dto.RegisterRequest;
-import com.tntgroup.examplepoject.entity.User;
-import com.tntgroup.examplepoject.repository.UserRepository;
-import com.tntgroup.examplepoject.utils.ValidationUtils;
+import com.tntgroup.testdatn.dto.AuthResponse;
+import com.tntgroup.testdatn.dto.LoginRequest;
+import com.tntgroup.testdatn.dto.RegisterRequest;
+import com.tntgroup.testdatn.entity.User;
+import com.tntgroup.testdatn.repository.UserRepository;
+import com.tntgroup.testdatn.utils.ValidationUtils;
 
 import lombok.RequiredArgsConstructor;
 

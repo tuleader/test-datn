@@ -1,4 +1,4 @@
-package com.tntgroup.examplepoject.dto;
+package com.tntgroup.testdatn.dto;
 
 import lombok.Builder;
 import lombok.Data;

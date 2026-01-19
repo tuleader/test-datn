@@ -1,13 +1,13 @@
-package com.tntgroup.examplepoject;
+package com.tntgroup.testdatn;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ExamplePojectApplication {
+public class TestDatnApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ExamplePojectApplication.class, args);
+        SpringApplication.run(TestDatnApplication.class, args);
     }
 
 }
