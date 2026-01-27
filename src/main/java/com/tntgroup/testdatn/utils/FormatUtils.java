@@ -70,12 +70,16 @@ public final class FormatUtils {
             return "***";
         }
 
-        int atIndex = email.indexOf("@");
+        int atIndex = email.lastIndexOf("@");
         String localPart = email.substring(0, atIndex);
         String domain = email.substring(atIndex);
 
-        if (localPart.length() <= 2) {
-            return localPart.charAt(0) + "***" + domain;
+        if (localPart.isEmpty()) {
+            return "***" + domain;
+        }
+
+        if (localPart.length() == 1) {
+            return localPart + "***" + domain;
         }
 
         return localPart.charAt(0) + "***" + localPart.charAt(localPart.length() - 1) + domain;
